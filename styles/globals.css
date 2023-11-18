@@ -1,0 +1,36 @@
+.container{
+    background-color: slateblue;
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 0px auto;
+    height: 40vh;
+    overflow-y: scroll;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: -3px -3px 5px rgb(74, 74, 240);;
+}
+.btn, .delbtn{
+    background-color: rgb(40, 15, 204); ;
+    color: white;
+    padding: 7px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: none;
+    box-shadow: 3px 3px 5px blue;
+    margin-top: 10px;
+}
+.int{
+    width: 90%;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px rgb(57, 57, 206);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.delbtn{
+    margin-right: 10px;
+}
